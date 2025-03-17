@@ -1,6 +1,8 @@
 <script>
   import { goto } from "$app/navigation";
   import { browser } from "$app/environment";
+  import { API_URL } from "$lib/config";
+
   let username = "";
   let password = "";
   let error = "";
